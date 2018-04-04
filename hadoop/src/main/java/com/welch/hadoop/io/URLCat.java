@@ -12,7 +12,7 @@ public class URLCat {
 	}
 	
 	public static void main(String[] args) throws Exception{
-		String url = "hdfs://GBL06063.systems.uk.hsbc:9000/user/welch/output4/part-r-00000";
+		String url = "";
 		InputStream in = null;
 		try{
 			in = new URL(url).openStream();

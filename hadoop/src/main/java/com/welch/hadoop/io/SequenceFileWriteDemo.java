@@ -21,7 +21,7 @@ public class SequenceFileWriteDemo {
 	};
 	
 	public static void main(String[] args) throws IOException {
-		String uri = "hdfs://GBL06063.systems.uk.hsbc:9000/user/welch/input/file03";
+		String uri = "";
 		Configuration conf = new Configuration();
 		FileSystem fs = FileSystem.get(URI.create(uri), conf);
 		Path path = new Path(uri);
