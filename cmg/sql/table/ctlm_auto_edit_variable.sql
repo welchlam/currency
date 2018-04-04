@@ -1,0 +1,15 @@
+CREATE TABLE CTLM_AUTO_EDIT_VARIABLE
+(
+  UUID                          VARCHAR2(30)
+, JOB_NAME                      VARCHAR2(100)
+, ACTION_DETAIL_ID              NUMBER
+, AEV_ORDER                     NUMBER
+, NAME                          VARCHAR2(200)
+, AEV_VALUE                     VARCHAR2(200)
+, CREATED_TSMP                  DATE
+, CREATED_BY_NAME               VARCHAR2(30)
+, AMENDED_TSMP                  DATE
+, AMENDED_BY_NAME               VARCHAR2(30)
+) SEGMENT CREATION DEFERRED 
+  PCTFREE 10 PCTUSED 0 INITRANS 1 MAXTRANS 255
+  NOCOMPRESS LOGGING;
