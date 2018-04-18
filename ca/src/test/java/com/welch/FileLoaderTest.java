@@ -14,6 +14,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class FileLoaderTest {
 
+    //test
     private FileLoader fileLoader = null;
 
     @Before
